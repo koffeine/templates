@@ -15,6 +15,7 @@ git add
 
 - basic: `npx degit koffeine/templates/basic`
 - node: `npx degit koffeine/templates/node`
+- vanilla: `npx degit koffeine/templates/vanilla`
 
 ## License
 
