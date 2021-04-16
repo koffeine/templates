@@ -14,6 +14,7 @@ git add
 ## Templates
 
 - basic: `npx degit koffeine/templates/basic`
+- node: `npx degit koffeine/templates/node`
 
 ## License
 

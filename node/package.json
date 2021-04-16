@@ -1,0 +1,8 @@
+{
+  "name": "node",
+  "private": true,
+  "devDependencies": {
+    "@koffeine/eslint-config": "19.0.0",
+    "eslint": "7.24.0"
+  }
+}
