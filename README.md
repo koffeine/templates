@@ -3,10 +3,9 @@
 ## Usage
 
 ```sh
-mkdir $PROJECT_NAME
-cd $PROJECT_NAME
+npx degit koffeine/templates/<template> <dir>
 
-npx degit koffeine/templates/<template>
+cd <dir>
 
 git init
 git add
