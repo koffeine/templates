@@ -12,6 +12,10 @@ git init
 git add
 ```
 
+## Templates
+
+- basic: `npx degit koffeine/templates/basic`
+
 ## License
 
 Copyright © Kornél Horváth
