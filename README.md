@@ -13,9 +13,9 @@ git add
 
 ## Templates
 
-- basic: `npx degit koffeine/templates/basic`
-- node: `npx degit koffeine/templates/node`
-- vanilla: `npx degit koffeine/templates/vanilla`
+- <a href="basic">basic</a>: Template for any project not covered by the others
+- <a href="node">node</a>: Template for a Node.js project
+- <a href="vanilla">vanilla</a>: Template for a vanilla (JS, CSS, HTML) project
 
 ## License
 
