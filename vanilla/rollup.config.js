@@ -41,7 +41,7 @@ export default {
 		format: 'esm',
 		dir: 'build',
 		entryFileNames: 'js/[name].js',
-		chunkFileNames: 'js/[name].js',
+		chunkFileNames: 'js/[hash].js',
 		sourcemap: development,
 		sourcemapPathTransform: (sourcePath) => path.join('build/js', sourcePath)
 	},
