@@ -2,8 +2,8 @@ import path from 'path';
 
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 import postcss from '@koffeine/rollup-plugin-postcss';
-import copy from 'rollup-plugin-copy-glob';
 import { terser } from 'rollup-plugin-terser';
+import copy from 'rollup-plugin-copy-glob';
 import serve from 'rollup-plugin-serve';
 import livereload from 'rollup-plugin-livereload';
 
