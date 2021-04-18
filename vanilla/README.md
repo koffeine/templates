@@ -11,6 +11,8 @@ cd <dir>
 
 git init
 git add
+
+npm i
 ```
 
 ## Replace
