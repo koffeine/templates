@@ -1,5 +1,5 @@
 {
-  "name": "node",
+  "name": "koffeine",
   "private": true,
   "devDependencies": {
     "@koffeine/eslint-config": "19.0.0",

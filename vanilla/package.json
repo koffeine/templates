@@ -1,5 +1,5 @@
 {
-  "name": "vanilla",
+  "name": "koffeine",
   "private": true,
   "scripts": {
     "dev": "shx rm -rf build && rollup -cw",
