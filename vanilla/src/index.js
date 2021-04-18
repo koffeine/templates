@@ -1,2 +1,1 @@
-import './normalize.css';
-import './open-sans.css';
+import './index.css';
