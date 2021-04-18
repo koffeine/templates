@@ -1,4 +1,4 @@
-# Koffeine's Svelte project template
+# Koffeine's svelte project template
 
 Template for a Svelte project.
 

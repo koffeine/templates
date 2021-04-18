@@ -1,11 +1,11 @@
-# Koffeine's Svelte project template
+# Koffeine's svelte-hmr project template
 
-Template for a Svelte project.
+Template for a Svelte project with HMR support.
 
 ## Usage
 
 ```sh
-npx degit koffeine/templates/svelte <dir>
+npx degit koffeine/templates/svelte-hmr <dir>
 
 cd <dir>
 
