@@ -4,12 +4,9 @@
 
 ```sh
 npx degit koffeine/templates/<template> <dir>
-
-cd <dir>
-
-git init
-git add
 ```
+
+Further instructions can be found in the given template.
 
 ## Templates
 
