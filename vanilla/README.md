@@ -18,4 +18,4 @@ npm i
 ## Replace
 
 - package.json: name
-- public/index.html: title
+- index.html: title
