@@ -15,7 +15,7 @@ const development = Boolean(process.env.ROLLUP_WATCH);
 const production = !development;
 
 export default {
-	input: 'src/index.js',
+	input: 'src/main.js',
 
 	plugins: [
 		nodeResolve({ dedupe: [ 'svelte' ] }),
@@ -35,14 +35,14 @@ export default {
 					? cssnano({ preset: [ 'default', { discardComments: { removeAll: true } } ] })
 					: () => () => {} // eslint-disable-line no-empty-function
 			],
-			output: 'css/index.css'
+			output: 'css/main.css'
 		}),
 
 		production && terser({ ecma: 2021 }),
 
-		production && copy([ { files: 'public/**/*', dest: 'build' } ]),
+		production && copy([ { files: 'public/**/*', dest: 'dist' } ]),
 
-		development && serve({ contentBase: [ 'public', 'build' ], historyApiFallback: true, open: true }),
+		development && serve({ contentBase: [ 'public', 'dist' ], historyApiFallback: true, open: true }),
 
 		development && hot({ inMemory: true }),
 
@@ -51,11 +51,11 @@ export default {
 
 	output: {
 		format: 'esm',
-		dir: 'build',
+		dir: 'dist',
 		entryFileNames: 'js/[name].js',
 		chunkFileNames: 'js/[hash].js',
 		sourcemap: development,
-		sourcemapPathTransform: (sourcePath) => path.join('build/js', sourcePath)
+		sourcemapPathTransform: (sourcePath) => path.join('dist/js', sourcePath)
 	},
 
 	watch: {

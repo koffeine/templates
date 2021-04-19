@@ -2,8 +2,8 @@
   "name": "koffeine",
   "private": true,
   "scripts": {
-    "dev": "shx rm -rf build && rollup -cw",
-    "build": "eslint src && shx rm -rf build && rollup -c"
+    "dev": "shx rm -rf dist && rollup -cw",
+    "build": "eslint src && shx rm -rf dist && rollup -c"
   },
   "devDependencies": {
     "@koffeine/eslint-config": "19.0.0",
