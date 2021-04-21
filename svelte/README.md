@@ -9,10 +9,10 @@ npx degit koffeine/templates/svelte <dir>
 
 cd <dir>
 
+npm i
+
 git init
 git add
-
-npm i
 ```
 
 ## Replace

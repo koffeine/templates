@@ -9,10 +9,10 @@ npx degit koffeine/templates/vue <dir>
 
 cd <dir>
 
+npm i
+
 git init
 git add
-
-npm i
 ```
 
 ## Replace

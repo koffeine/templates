@@ -9,10 +9,10 @@ npx degit koffeine/templates/vanilla <dir>
 
 cd <dir>
 
+npm i
+
 git init
 git add
-
-npm i
 ```
 
 ## Replace
