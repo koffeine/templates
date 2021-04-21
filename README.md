@@ -14,6 +14,7 @@ Further instructions can be found in the given template.
 - <a href="node">node</a>: Template for a Node.js project
 - <a href="vanilla">vanilla</a>: Template for a vanilla (JS, CSS, HTML) project
 - <a href="svelte">svelte</a>: Template for a Svelte project
+- <a href="vue">vue</a>: Template for a Vue.js project
 
 ## License
 
