@@ -1,0 +1,37 @@
+plugins {
+	id 'com.github.ben-manes.versions' version '0.38.0'
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 11
+
+tasks.withType(JavaCompile) {
+	options.encoding = 'UTF-8'
+	options.compilerArgs = [ '-Xlint:deprecation', '-Xlint:unchecked' ]
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+}
+
+
+wrapper {
+	gradleVersion = '6.8.3'
+}
+
+dependencyUpdates.rejectVersionIf { version ->
+	[].any { qualifier ->
+		version.candidate.version ==~ /(?i).*[\.-]${qualifier}[\d]*/
+	}
+}
+
+idea {
+	module {
+		excludeDirs += files('.idea', 'gradle')
+	}
+}

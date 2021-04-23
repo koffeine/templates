@@ -1,0 +1,9 @@
+# Sublime Text
+*.sublime-*
+
+# IDEA
+.idea/
+
+# Gradle
+.gradle/
+build/
