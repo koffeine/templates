@@ -12,7 +12,7 @@ cd <dir>
 npm i
 
 git init
-git add
+git add .
 ```
 
 ## Replace

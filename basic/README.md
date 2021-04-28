@@ -10,7 +10,7 @@ npx degit koffeine/templates/basic <dir>
 cd <dir>
 
 git init
-git add
+git add .
 ```
 
 ## Replace
