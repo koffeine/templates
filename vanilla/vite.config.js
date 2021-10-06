@@ -3,6 +3,6 @@ export default {
 
 	build: {
 		target: 'esnext',
-		brotliSize: false
+		reportCompressedSize: false
 	}
 };
