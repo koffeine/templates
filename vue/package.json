@@ -1,6 +1,5 @@
 {
   "name": "koffeine",
-  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "eslint src --ext .js,.vue && vite build",
@@ -17,5 +16,6 @@
   },
   "dependencies": {
     "vue": "3.2.19"
-  }
+  },
+  "private": true
 }
