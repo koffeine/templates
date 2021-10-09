@@ -3,12 +3,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "eslint src && vite build",
+    "build": "eslint --ext .ts src && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
     "@koffeine/eslint-config": "21.0.0",
+    "@typescript-eslint/parser": "4.33.0",
     "eslint": "7.32.0",
+    "typescript": "4.4.3",
     "vite": "2.6.5"
   },
   "private": true
