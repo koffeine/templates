@@ -1,0 +1,22 @@
+{
+  "name": "koffeine",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "eslint --ext .js,.vue src && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@koffeine/eslint-config": "21.0.0",
+    "@koffeine/eslint-config-vue": "11.0.0",
+    "@vitejs/plugin-vue": "1.9.3",
+    "@vue/compiler-sfc": "3.2.20",
+    "eslint": "7.32.0",
+    "eslint-plugin-vue": "7.19.1",
+    "vite": "2.6.5"
+  },
+  "dependencies": {
+    "vue": "3.2.20"
+  },
+  "private": true
+}
