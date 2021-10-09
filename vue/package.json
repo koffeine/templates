@@ -7,7 +7,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@koffeine/eslint-config": "20.0.0",
+    "@koffeine/eslint-config": "21.0.0",
     "@koffeine/eslint-config-vue": "11.0.0",
     "@vitejs/plugin-vue": "1.9.3",
     "@vue/compiler-sfc": "3.2.20",

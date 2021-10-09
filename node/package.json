@@ -5,7 +5,7 @@
     "test": "eslint index.js"
   },
   "devDependencies": {
-    "@koffeine/eslint-config": "20.0.0",
+    "@koffeine/eslint-config": "21.0.0",
     "eslint": "7.32.0"
   },
   "private": true
