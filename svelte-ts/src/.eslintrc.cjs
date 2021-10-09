@@ -6,6 +6,7 @@ module.exports = {
 	extends: '@koffeine',
 	plugins: [ 'svelte3' ],
 	overrides: [ { files: [ '*.svelte' ], processor: 'svelte3/svelte3' } ],
+	parser: '@typescript-eslint/parser',
 	parserOptions: {
 		ecmaVersion: 2021, // 12
 		sourceType: 'module'
@@ -13,5 +14,8 @@ module.exports = {
 	env: {
 		es2021: true,
 		browser: true
+	},
+	settings: {
+		'svelte3/typescript': true
 	}
 };
