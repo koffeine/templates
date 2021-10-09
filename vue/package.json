@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "eslint src --ext .js,.vue && vite build",
+    "build": "eslint --ext .js,.vue src && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
