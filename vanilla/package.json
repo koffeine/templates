@@ -9,7 +9,7 @@
   "devDependencies": {
     "@koffeine/eslint-config": "20.0.0",
     "eslint": "7.32.0",
-    "vite": "2.6.4"
+    "vite": "2.6.5"
   },
   "private": true
 }

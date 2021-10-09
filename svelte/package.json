@@ -12,7 +12,7 @@
     "eslint": "7.32.0",
     "eslint-plugin-svelte3": "3.2.1",
     "svelte": "3.43.1",
-    "vite": "2.6.4"
+    "vite": "2.6.5"
   },
   "private": true
 }
