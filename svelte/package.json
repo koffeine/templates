@@ -1,5 +1,6 @@
 {
   "name": "koffeine",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "eslint src && vite build",
