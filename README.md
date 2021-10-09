@@ -14,6 +14,7 @@ Further instructions can be found in the given template.
 - <a href="node">node</a>: Template for a Node.js project
 - <a href="node-ts">node-ts</a>: Template for a Node.js + TypeScript project
 - <a href="web">web</a>: Template for a web project
+- <a href="web-ts">web-ts</a>: Template for a web + TypeScript project
 - <a href="svelte">svelte</a>: Template for a Svelte project
 - <a href="vue">vue</a>: Template for a Vue.js project
 - <a href="java">java</a>: Template for a Java project
