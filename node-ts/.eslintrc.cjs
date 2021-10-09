@@ -3,6 +3,7 @@
 module.exports = {
 	root: true,
 	extends: '@koffeine',
+	parser: '@typescript-eslint/parser',
 	parserOptions: {
 		ecmaVersion: 2021, // 12
 		sourceType: 'module'
