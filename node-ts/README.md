@@ -1,6 +1,6 @@
 # Koffeine's node-ts project template
 
-Template for a Node.js + TypeScript project
+Template for a Node.js + TypeScript project.
 
 ## Usage
 

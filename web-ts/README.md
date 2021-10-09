@@ -1,6 +1,6 @@
 # Koffeine's web-ts project template
 
-Template for a web + TypeScript project
+Template for a web + TypeScript project.
 
 ## Usage
 
