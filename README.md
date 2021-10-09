@@ -16,6 +16,7 @@ Further instructions can be found in the given template.
 - <a href="web">web</a>: Template for a web project
 - <a href="web-ts">web-ts</a>: Template for a web + TypeScript project
 - <a href="svelte">svelte</a>: Template for a Svelte project
+- <a href="svelte-ts">svelte-ts</a>: Template for a Svelte + TypeScript project
 - <a href="vue">vue</a>: Template for a Vue.js project
 - <a href="java">java</a>: Template for a Java project
 - <a href=".public">.public</a>: Additional files for a public project
