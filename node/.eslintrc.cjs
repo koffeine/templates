@@ -1,11 +1,11 @@
-'use strict';
+'use strict'; // eslint-disable-line strict
 
 module.exports = {
 	root: true,
 	extends: '@koffeine',
 	parserOptions: {
 		ecmaVersion: 2021, // 12
-		sourceType: 'script'
+		sourceType: 'module'
 	},
 	env: {
 		es2021: true,
