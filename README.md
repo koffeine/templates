@@ -20,6 +20,7 @@ Further instructions can be found in the given template.
 - <a href="vue">vue</a>: Template for a Vue.js project
 - <a href="vue-ts">vue-ts</a>: Template for a Vue.js + TypeScript project
 - <a href="java">java</a>: Template for a Java project
+- <a href="spring">spring</a>: Template for a Spring project
 - <a href=".public">.public</a>: Additional files for a public project
 
 ## License
