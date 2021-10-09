@@ -12,6 +12,7 @@ Further instructions can be found in the given template.
 
 - <a href="basic">basic</a>: Template for any project not covered by the others
 - <a href="node">node</a>: Template for a Node.js project
+- <a href="node-ts">node-ts</a>: Template for a Node.js + TypeScript project
 - <a href="web">web</a>: Template for a web project
 - <a href="svelte">svelte</a>: Template for a Svelte project
 - <a href="vue">vue</a>: Template for a Vue.js project
