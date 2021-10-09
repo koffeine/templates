@@ -1,4 +1,5 @@
 /* eslint-env node */
+'use strict'; // eslint-disable-line strict
 
 module.exports = {
 	root: true,
