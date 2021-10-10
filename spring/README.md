@@ -1,6 +1,6 @@
 # Koffeine's spring project template
 
-Template for a Spring (Web) project.
+Template for a Spring (Web + Validation) project.
 
 ## Usage
 
