@@ -12,3 +12,8 @@ insert_final_newline = true
 # Markdown
 [*.md]
 trim_trailing_whitespace = false
+
+# Yaml
+[*.yaml]
+indent_style = space
+indent_size = 4
