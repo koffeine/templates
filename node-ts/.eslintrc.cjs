@@ -5,7 +5,7 @@ module.exports = {
 	extends: '@koffeine',
 	parser: '@typescript-eslint/parser',
 	parserOptions: {
-		ecmaVersion: 2021, // 12
+		ecmaVersion: 'latest',
 		sourceType: 'module'
 	},
 	env: {

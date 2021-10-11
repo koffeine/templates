@@ -7,7 +7,7 @@ module.exports = {
 	plugins: [ 'svelte3' ],
 	overrides: [ { files: [ '*.svelte' ], processor: 'svelte3/svelte3' } ],
 	parserOptions: {
-		ecmaVersion: 2021, // 12
+		ecmaVersion: 'latest',
 		sourceType: 'module'
 	},
 	env: {
