@@ -7,7 +7,7 @@ module.exports = {
 	plugins: [ 'vue' ],
 	parser: 'vue-eslint-parser',
 	parserOptions: {
-		ecmaVersion: 'latest',
+		ecmaVersion: 2021, // vue-eslint-parser doesn't support 'latest'
 		sourceType: 'module'
 	},
 	env: {
