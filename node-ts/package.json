@@ -2,7 +2,7 @@
   "name": "koffeine",
   "type": "module",
   "scripts": {
-    "test": "eslint index.ts",
+    "test": "eslint --ext .ts src",
     "build": "rollup -c"
   },
   "devDependencies": {
