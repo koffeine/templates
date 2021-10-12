@@ -1,5 +1,4 @@
-/* eslint-env node */
-'use strict'; // eslint-disable-line strict
+'use strict';
 
 module.exports = {
 	root: true,
@@ -14,5 +13,16 @@ module.exports = {
 	env: {
 		es2021: true,
 		browser: true
-	}
+	},
+	overrides: [
+		{
+			files: '.eslintrc.cjs',
+			parserOptions: {
+				sourceType: 'script'
+			},
+			env: {
+				node: true
+			}
+		}
+	]
 };
