@@ -2,7 +2,7 @@
   "name": "koffeine",
   "type": "module",
   "scripts": {
-    "test": "eslint index.js"
+    "test": "eslint src"
   },
   "devDependencies": {
     "@koffeine/eslint-config": "21.0.0",
