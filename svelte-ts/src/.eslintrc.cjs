@@ -1,5 +1,4 @@
-/* eslint-env node */
-'use strict'; // eslint-disable-line strict
+'use strict';
 
 module.exports = {
 	root: true,
@@ -21,6 +20,15 @@ module.exports = {
 		{
 			files: '*.svelte',
 			processor: 'svelte3/svelte3'
+		},
+		{
+			files: '.eslintrc.cjs',
+			parserOptions: {
+				sourceType: 'script'
+			},
+			env: {
+				node: true
+			}
 		}
 	]
 };
