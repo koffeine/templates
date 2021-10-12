@@ -2,7 +2,7 @@ import nodeResolve from '@rollup/plugin-node-resolve';
 import esbuild from 'rollup-plugin-esbuild';
 
 export default {
-	input: 'index.ts',
+	input: 'src/index.ts',
 	plugins: [
 		nodeResolve(),
 		esbuild({
@@ -13,6 +13,6 @@ export default {
 	],
 	output: {
 		generatedCode: 'es2015',
-		file: 'index.js'
+		file: 'dist/index.js'
 	}
 };
