@@ -6,6 +6,9 @@
     "build": "eslint --ext .js,.vue src && vite build",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "vue": "3.2.20"
+  },
   "devDependencies": {
     "@koffeine/eslint-config": "22.0.0",
     "@koffeine/eslint-config-vue": "11.0.0",
@@ -14,9 +17,6 @@
     "eslint": "8.0.0",
     "eslint-plugin-vue": "7.19.1",
     "vite": "2.6.7"
-  },
-  "dependencies": {
-    "vue": "3.2.20"
   },
   "private": true
 }
