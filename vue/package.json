@@ -2,8 +2,9 @@
   "name": "koffeine",
   "type": "module",
   "scripts": {
+    "test": "eslint --ext js,vue src",
     "dev": "vite",
-    "build": "eslint --ext .js,.vue src && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
