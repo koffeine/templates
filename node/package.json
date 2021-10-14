@@ -5,8 +5,8 @@
     "test": "eslint src"
   },
   "devDependencies": {
-    "@koffeine/eslint-config": "22.0.0",
-    "eslint": "8.0.0"
+    "@koffeine/eslint-config": "22.0.1",
+    "eslint": "8.0.1"
   },
   "private": true
 }
