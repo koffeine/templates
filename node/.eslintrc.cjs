@@ -13,7 +13,7 @@ module.exports = {
 	},
 	overrides: [
 		{
-			files: '.eslintrc.cjs',
+			files: '*.cjs',
 			parserOptions: {
 				sourceType: 'script'
 			}
