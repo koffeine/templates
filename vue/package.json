@@ -14,7 +14,6 @@
     "@koffeine/eslint-config": "22.0.1",
     "@koffeine/eslint-config-vue": "11.0.0",
     "@vitejs/plugin-vue": "1.9.3",
-    "@vue/compiler-sfc": "3.2.20",
     "eslint": "8.0.1",
     "eslint-plugin-vue": "7.19.1",
     "vite": "2.6.7"
