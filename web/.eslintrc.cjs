@@ -4,37 +4,29 @@ module.exports = {
 	root: true,
 	extends: '@koffeine',
 	parserOptions: {
-		ecmaVersion: 'latest'
+		ecmaVersion: 'latest',
+		sourceType: 'module'
 	},
 	env: {
 		es2021: true
 	},
 	overrides: [
 		{
-			files: 'src/**/*',
-			parserOptions: {
-				sourceType: 'module'
-			},
+			files: './*',
+			env: {
+				node: true
+			}
+		},
+		{
+			files: 'src/*',
 			env: {
 				browser: true
 			}
 		},
 		{
-			files: './*.js',
-			parserOptions: {
-				sourceType: 'module'
-			},
-			env: {
-				node: true
-			}
-		},
-		{
-			files: './*.cjs',
+			files: '*.cjs',
 			parserOptions: {
 				sourceType: 'script'
-			},
-			env: {
-				node: true
 			}
 		}
 	]

@@ -4,40 +4,35 @@ module.exports = {
 	root: true,
 	extends: '@koffeine',
 	parserOptions: {
-		ecmaVersion: 2022 // 13; vue-eslint-parser doesn't support 'latest'
+		ecmaVersion: 'latest',
+		sourceType: 'module'
 	},
 	env: {
 		es2021: true
 	},
 	overrides: [
 		{
-			files: 'src/**/*',
-			extends: '@koffeine/eslint-config-vue',
-			plugins: [ 'vue' ],
-			parser: 'vue-eslint-parser',
-			parserOptions: {
-				sourceType: 'module'
-			},
+			files: './*',
+			env: {
+				node: true
+			}
+		},
+		{
+			files: 'src/*',
 			env: {
 				browser: true
 			}
 		},
 		{
-			files: './*.js',
-			parserOptions: {
-				sourceType: 'module'
-			},
-			env: {
-				node: true
-			}
+			files: '*.vue',
+			extends: '@koffeine/eslint-config-vue',
+			plugins: [ 'vue' ],
+			parser: 'vue-eslint-parser'
 		},
 		{
-			files: './*.cjs',
+			files: '*.cjs',
 			parserOptions: {
 				sourceType: 'script'
-			},
-			env: {
-				node: true
 			}
 		}
 	]
