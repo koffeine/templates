@@ -14,6 +14,13 @@ module.exports = {
 	},
 	overrides: [
 		{
+			files: '*.ts',
+			plugins: [ '@typescript-eslint' ],
+			parser: '@typescript-eslint/parser',
+			rules: {
+			}
+		},
+		{
 			files: '*.cjs',
 			parserOptions: {
 				sourceType: 'script'

@@ -5,7 +5,7 @@ Template for a Node.js project.
 ## Usage
 
 ```sh
-npx degit koffeine/templates/node <dir>
+npx degit koffeine/templates/node#node-ts <dir>
 
 cd <dir>
 
