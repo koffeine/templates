@@ -18,7 +18,7 @@ module.exports = {
 			}
 		},
 		{
-			files: 'src/*',
+			files: 'src/**/*',
 			env: {
 				browser: true
 			}
