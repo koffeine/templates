@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@koffeine/eslint-config": "22.0.1",
+    "@koffeine/eslint-config": "23.0.0",
     "@sveltejs/vite-plugin-svelte": "1.0.0-next.28",
     "eslint": "8.0.1",
     "eslint-plugin-svelte3": "3.2.1",
