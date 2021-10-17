@@ -27,7 +27,10 @@ module.exports = {
 			files: '*.vue',
 			extends: '@koffeine/eslint-config-vue',
 			plugins: [ 'vue' ],
-			parser: 'vue-eslint-parser'
+			parser: 'vue-eslint-parser',
+			parserOptions: {
+				ecmaVersion: 2022
+			}
 		},
 		{
 			files: '*.cjs',
