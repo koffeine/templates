@@ -1,0 +1,14 @@
+{
+	"include": [ "src/**/*.js" ],
+	"compilerOptions": {
+		// Modules
+		"module": "esnext",
+		"moduleResolution": "node",
+
+		// JavaScript Support
+		"checkJs": true,
+
+		// Language and Environment
+		"target": "esnext",
+	}
+}
