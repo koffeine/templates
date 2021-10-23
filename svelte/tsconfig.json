@@ -1,5 +1,5 @@
 {
-	"include": [ "src/**/*.js", "src/**/*.svelte" ],
+	"include": [ "src/**/*.ts", "src/**/*.svelte" ],
 	"compilerOptions": {
 		// Type Checking
 		"allowUnreachableCode": false,
@@ -20,9 +20,6 @@
 
 		// Emit
 		"noEmit": true,
-
-		// JavaScript Support
-		"checkJs": true,
 
 		// Interop Constraints
 		"esModuleInterop": true,

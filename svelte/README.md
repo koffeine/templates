@@ -5,7 +5,7 @@ Template for a Svelte project.
 ## Usage
 
 ```sh
-npx degit koffeine/templates/svelte <dir>
+npx degit koffeine/templates/svelte#svelte-ts <dir>
 
 cd <dir>
 
