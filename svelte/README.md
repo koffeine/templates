@@ -1,11 +1,11 @@
 # Koffeine's svelte project template
 
-Template for a Svelte project.
+Template for a type-checked Svelte project.
 
 ## Usage
 
 ```sh
-npx degit koffeine/templates/svelte <dir>
+npx degit koffeine/templates/svelte#svelte-typed <dir>
 
 cd <dir>
 
