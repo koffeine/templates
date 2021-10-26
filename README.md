@@ -17,17 +17,14 @@ Further instructions can be found in the given template.
 		- <a href="spring">spring</a>: Template for a Spring (Web + Validation) project
 	- <a href=".public">.public</a>: Additional files for a public project
 
-### Variants
-
-- <a href="https://github.com/koffeine/templates/tree/node-ts/node">node-ts</a>: `npx degit koffeine/templates/node#node-ts <dir>`
-- <a href="https://github.com/koffeine/templates/tree/svelte-ts/svelte">svelte-ts</a>: `npx degit koffeine/templates/svelte#svelte-ts <dir>`
-
 ### Not maintained
 
-- <a href="https://github.com/koffeine/templates/tree/zzz/vue/vue">vue</a>: `npx degit koffeine/templates/vue#zzz/vue <dir>`
-- <a href="https://github.com/koffeine/templates/tree/zzz/vue-ts/vue">vue-ts</a>: `npx degit koffeine/templates/vue#zzz/vue-ts <dir>`
-- <a href="https://github.com/koffeine/templates/tree/zzz/web/web">web</a>: `npx degit koffeine/templates/web#zzz/web <dir>`
-- <a href="https://github.com/koffeine/templates/tree/zzz/web-ts/web">web-ts</a>: `npx degit koffeine/templates/web#zzz/web-ts <dir>`
+- <a href="https://github.com/koffeine/templates/tree/node-ts/node">node-ts</a>: Template for a Node.js + TypeScript project
+- <a href="https://github.com/koffeine/templates/tree/svelte-ts/svelte">svelte-ts</a>: Template for a Svelte + TypeScript project
+- <a href="https://github.com/koffeine/templates/tree/vue/vue">vue</a>: Template for a Vue.js project
+- <a href="https://github.com/koffeine/templates/tree/vue-ts/vue">vue-ts</a>: Template for a Vue.js + TypeScript project
+- <a href="https://github.com/koffeine/templates/tree/web/web">web</a>: Template for a web project
+- <a href="https://github.com/koffeine/templates/tree/web-ts/web">web-ts</a>: Template for a web + TypeScript project
 
 ## License
 
