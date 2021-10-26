@@ -1,11 +1,11 @@
 # Koffeine's node project template
 
-Template for a Node.js project.
+Template for a type-checked Node.js project.
 
 ## Usage
 
 ```sh
-npx degit koffeine/templates/node <dir>
+npx degit koffeine/templates/node#node-typed <dir>
 
 cd <dir>
 
