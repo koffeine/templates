@@ -6,4 +6,4 @@ import App from './App.svelte';
 Router.init([
 ]);
 
-new App({ target: document.body }); // eslint-disable-line no-new
+export default new App({ target: document.body });
