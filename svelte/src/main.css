@@ -1,4 +1,1 @@
-@import url(./assets/styles/normalize.css);
-@import url(./assets/styles/roboto.css);
-@import url(./assets/styles/variables.css);
-@import url(./assets/styles/global.css);
+@import url(@koffeine/kss);
