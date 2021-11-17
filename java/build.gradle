@@ -1,11 +1,11 @@
 plugins {
-	id 'com.github.ben-manes.versions' version '0.39.0'
+	id 'com.github.ben-manes.versions' version '0.42.0'
 }
 
 apply plugin: 'java'
 apply plugin: 'idea'
 
-sourceCompatibility = 11
+sourceCompatibility = 17
 
 tasks.withType(JavaCompile) {
 	options.encoding = 'UTF-8'
@@ -21,7 +21,7 @@ dependencies {
 
 
 wrapper {
-	gradleVersion = '6.8.3'
+	gradleVersion = '7.4'
 }
 
 dependencyUpdates.rejectVersionIf { version ->
