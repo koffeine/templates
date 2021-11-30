@@ -5,7 +5,7 @@ plugins {
 apply plugin: 'java'
 apply plugin: 'idea'
 
-sourceCompatibility = 11
+sourceCompatibility = 17
 
 tasks.withType(JavaCompile) {
 	options.encoding = 'UTF-8'
@@ -21,7 +21,7 @@ dependencies {
 
 
 wrapper {
-	gradleVersion = '6.8.3'
+	gradleVersion = '7.3'
 }
 
 dependencyUpdates.rejectVersionIf { version ->

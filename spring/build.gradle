@@ -1,5 +1,5 @@
 plugins {
-	id 'org.springframework.boot' version '2.6.0'
+	id 'org.springframework.boot' version '2.6.1'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 
 	id 'com.github.ben-manes.versions' version '0.39.0'
@@ -8,7 +8,7 @@ plugins {
 apply plugin: 'java'
 apply plugin: 'idea'
 
-sourceCompatibility = 11
+sourceCompatibility = 17
 
 tasks.withType(JavaCompile) {
 	options.encoding = 'UTF-8'
@@ -36,7 +36,7 @@ test {
 
 
 wrapper {
-	gradleVersion = '6.8.3'
+	gradleVersion = '7.3'
 }
 
 dependencyUpdates.rejectVersionIf { version ->
