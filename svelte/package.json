@@ -16,8 +16,8 @@
     "@sveltejs/vite-plugin-svelte": "1.0.0-next.31",
     "eslint": "8.4.1",
     "eslint-plugin-svelte3": "3.2.1",
-    "svelte": "3.44.2",
-    "vite": "2.7.1"
+    "svelte": "3.44.3",
+    "vite": "2.7.2"
   },
   "private": true
 }
