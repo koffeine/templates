@@ -1,5 +1,5 @@
 plugins {
-	id 'com.github.ben-manes.versions' version '0.39.0'
+	id 'com.github.ben-manes.versions' version '0.41.0'
 }
 
 apply plugin: 'java'
@@ -21,7 +21,7 @@ dependencies {
 
 
 wrapper {
-	gradleVersion = '7.3.2'
+	gradleVersion = '7.3.3'
 }
 
 dependencyUpdates.rejectVersionIf { version ->
