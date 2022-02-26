@@ -17,15 +17,6 @@ Further instructions can be found in the given template.
 		- <a href="spring">spring</a>: Template for a Spring (Web + Validation) project
 	- <a href=".public">.public</a>: Additional files for a public project
 
-### Not maintained
-
-- <a href="https://github.com/koffeine/templates/tree/node-ts/node">node-ts</a>: Template for a Node.js + TypeScript project
-- <a href="https://github.com/koffeine/templates/tree/svelte-ts/svelte">svelte-ts</a>: Template for a Svelte + TypeScript project
-- <a href="https://github.com/koffeine/templates/tree/vue/vue">vue</a>: Template for a Vue.js project
-- <a href="https://github.com/koffeine/templates/tree/vue-ts/vue">vue-ts</a>: Template for a Vue.js + TypeScript project
-- <a href="https://github.com/koffeine/templates/tree/web/web">web</a>: Template for a web project
-- <a href="https://github.com/koffeine/templates/tree/web-ts/web">web-ts</a>: Template for a web + TypeScript project
-
 ## License
 
 Copyright © Kornél Horváth
