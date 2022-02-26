@@ -19,7 +19,6 @@ Further instructions can be found in the given template.
 
 ### Variants
 
-- <a href="https://github.com/koffeine/templates/tree/node-typed/node">node-typed</a>: Template for a type-checked Node.js project
 - <a href="https://github.com/koffeine/templates/tree/svelte-typed/svelte">svelte-typed</a>: Template for a type-checked Svelte project
 
 ### Not maintained
