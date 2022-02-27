@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@koffeine/kss": "1.0.3",
+    "@koffeine/kss": "1.0.4",
     "@koffeine/svelte-router": "1.0.4"
   },
   "devDependencies": {
