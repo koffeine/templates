@@ -25,12 +25,19 @@ module.exports = {
 			}
 		},
 		{
+			files: [ '*.ts', '*.vue' ],
+			plugins: [ '@typescript-eslint' ],
+			parser: '@typescript-eslint/parser',
+			rules: {
+			}
+		},
+		{
 			files: '*.vue',
 			extends: '@koffeine/eslint-config-vue',
 			plugins: [ 'vue' ],
 			parser: 'vue-eslint-parser',
 			parserOptions: {
-				ecmaVersion: 2022
+				parser: '@typescript-eslint/parser'
 			}
 		},
 		{

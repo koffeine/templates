@@ -1,11 +1,11 @@
 # Koffeine's vue project template
 
-Template for a Vue.js project.
+Template for a Vue.js + TypeScript project.
 
 ## Usage
 
 ```sh
-npx degit koffeine/templates/vue#vue <dir>
+npx degit koffeine/templates/vue#vue-ts <dir>
 
 cd <dir>
 
