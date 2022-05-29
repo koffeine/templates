@@ -4,13 +4,6 @@ plugins {
 	id 'idea'
 }
 
-sourceCompatibility = 17
-
-tasks.withType(JavaCompile) {
-	options.encoding = 'UTF-8'
-	options.compilerArgs = [ '-Xlint:deprecation', '-Xlint:unchecked' ]
-}
-
 repositories {
 	mavenCentral()
 }
@@ -19,9 +12,13 @@ dependencies {
 }
 
 
-wrapper {
-	gradleVersion = '7.4.2'
+sourceCompatibility = 17
+
+tasks.withType(JavaCompile) {
+	options.encoding = 'UTF-8'
+	options.compilerArgs = [ '-Xlint:deprecation', '-Xlint:unchecked' ]
 }
+
 
 dependencyUpdates.rejectVersionIf { version ->
 	[].any { qualifier ->
@@ -29,8 +26,13 @@ dependencyUpdates.rejectVersionIf { version ->
 	}
 }
 
+
 idea {
 	module {
 		excludeDirs += files('.idea', 'gradle')
 	}
+}
+
+wrapper {
+	gradleVersion = '7.4.2'
 }
