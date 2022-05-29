@@ -6,21 +6,14 @@ plugins {
 	id 'idea'
 }
 
-sourceCompatibility = 17
-
-tasks.withType(JavaCompile) {
-	options.encoding = 'UTF-8'
-	options.compilerArgs = [ '-Xlint:deprecation', '-Xlint:unchecked' ]
-}
-
 repositories {
 	mavenCentral()
 }
 
 dependencies {
 	implementation(
-		'org.springframework.boot:spring-boot-starter-web',
-		'org.springframework.boot:spring-boot-starter-validation'
+		'org.springframework.boot:spring-boot-starter-validation',
+		'org.springframework.boot:spring-boot-starter-web'
 	)
 
 	testImplementation(
@@ -28,14 +21,18 @@ dependencies {
 	)
 }
 
+
+sourceCompatibility = 17
+
+tasks.withType(JavaCompile) {
+	options.encoding = 'UTF-8'
+	options.compilerArgs = [ '-Xlint:deprecation', '-Xlint:unchecked' ]
+}
+
 test {
 	useJUnitPlatform()
 }
 
-
-wrapper {
-	gradleVersion = '7.4.2'
-}
 
 dependencyUpdates.rejectVersionIf { version ->
 	[].any { qualifier ->
@@ -43,8 +40,14 @@ dependencyUpdates.rejectVersionIf { version ->
 	}
 }
 
+
 idea {
 	module {
 		excludeDirs += files('.idea', 'gradle')
 	}
+}
+
+
+wrapper {
+	gradleVersion = '7.4.2'
 }
