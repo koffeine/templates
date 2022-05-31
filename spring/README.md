@@ -21,3 +21,12 @@ git add .
 - src/main/java/koffeine/controller/IndexController.java: index method
 - src/main/resources/application.yaml: logging.level package name
 - src/test/java/koffeine: package name
+
+## IDEA
+
+- Run/Debug Configurations
+	- Spring Boot
+		- KoffeineApplication
+			- Modify options
+				- `✓` Disable launch optimization
+			- VM options: `-Dspring.config.location=classpath:/ -XX:TieredStopAtLevel=1`
