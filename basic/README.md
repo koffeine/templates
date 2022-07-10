@@ -1,6 +1,6 @@
 # Koffeine's basic project template
 
-Template for any project not covered by the others.
+Template for a basic project.
 
 ## Usage
 
