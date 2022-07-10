@@ -7,5 +7,4 @@ spring:
 
 logging:
     level:
-        koffeine: debug
         org.springframework.web.servlet.PageNotFound: off
