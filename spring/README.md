@@ -29,3 +29,4 @@ git add .
 			- Modify options
 				- `✓` Disable launch optimization
 			- VM options: `-Dspring.config.location=classpath:/ -XX:TieredStopAtLevel=1`
+			- Active profiles: `dev`
