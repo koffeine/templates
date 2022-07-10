@@ -10,12 +10,11 @@ Further instructions can be found in the given template.
 
 ## Templates
 
-- <a href="basic">basic</a>: Template for any project not covered by the others
-	- <a href="node">node</a>: Template for a Node.js project
-		- <a href="svelte">svelte</a>: Template for a Svelte project
-	- <a href="java">java</a>: Template for a Java project
-		- <a href="spring">spring</a>: Template for a Spring (Web + Validation) project
-	- <a href=".public">.public</a>: Additional files for a public project
+- <a href="basic">basic</a>: Template for a basic project
+- <a href="node">node</a>: Template for a Node.js project
+- <a href="svelte">svelte</a>: Template for a Svelte project
+- <a href="spring">spring</a>: Template for a Spring (Web + Validation) project
+- <a href=".public">.public</a>: Additional files for a public project
 
 ## License
 
