@@ -1,9 +1,9 @@
 package koffeine.controller;
 
-import koffeine.exception.BadRequestException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
@@ -14,9 +14,9 @@ public class ExceptionController {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(ExceptionController.class);
 
-	@ExceptionHandler(BadRequestException.class)
+	@ExceptionHandler(MethodArgumentNotValidException.class)
 	@ResponseStatus(HttpStatus.BAD_REQUEST)
-	public void badRequestException(BadRequestException e) {
+	public void methodArgumentNotValidException(MethodArgumentNotValidException e) {
 		LOGGER.debug("Bad request {}", e.getMessage());
 	}
 
