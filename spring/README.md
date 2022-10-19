@@ -26,7 +26,5 @@ git add .
 - Run/Debug Configurations
 	- Spring Boot
 		- KoffeineApplication
-			- Modify options
-				- `✓` Disable launch optimization
-			- VM options: `-Dspring.config.location=classpath:/ -XX:TieredStopAtLevel=1`
+			- VM options: `-Dspring.config.location=classpath:/`
 			- Active profiles: `dev`
