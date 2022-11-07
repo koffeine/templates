@@ -5,8 +5,8 @@
     "test": "eslint src && tsc -p jsconfig.json"
   },
   "devDependencies": {
-    "@koffeine/eslint-config": "27.2.0",
-    "eslint": "8.26.0",
+    "@koffeine/eslint-config": "28.0.0",
+    "eslint": "8.27.0",
     "typescript": "4.8.4"
   },
   "private": true
