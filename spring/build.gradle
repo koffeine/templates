@@ -1,5 +1,5 @@
 plugins {
-	id 'org.springframework.boot' version '2.7.6'
+	id 'org.springframework.boot' version '3.0.0'
 	id 'com.github.ben-manes.versions' version '0.44.0'
 	id 'java'
 	id 'idea'
@@ -31,7 +31,7 @@ sourceCompatibility = 17
 
 tasks.withType(JavaCompile) {
 	options.encoding = 'UTF-8'
-	options.compilerArgs = [ '-Xlint:deprecation', '-Xlint:unchecked' ]
+	options.compilerArgs = [ '-Xlint:deprecation', '-Xlint:unchecked', '-parameters' ]
 }
 
 jar.enabled = false
