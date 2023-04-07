@@ -7,7 +7,7 @@
   "devDependencies": {
     "@koffeine/eslint-config": "29.6.0",
     "eslint": "8.37.0",
-    "typescript": "5.0.2"
+    "typescript": "5.0.3"
   },
   "private": true
 }

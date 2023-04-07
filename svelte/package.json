@@ -13,11 +13,11 @@
   },
   "devDependencies": {
     "@koffeine/eslint-config": "29.6.0",
-    "@sveltejs/vite-plugin-svelte": "2.0.3",
+    "@sveltejs/vite-plugin-svelte": "2.0.4",
     "eslint": "8.37.0",
     "eslint-plugin-svelte3": "4.0.0",
-    "svelte": "3.57.0",
-    "svelte-check": "3.1.4",
+    "svelte": "3.58.0",
+    "svelte-check": "3.2.0",
     "vite": "4.2.1"
   },
   "private": true
