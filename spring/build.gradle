@@ -1,5 +1,5 @@
 plugins {
-	id 'org.springframework.boot' version '3.0.5'
+	id 'org.springframework.boot' version '3.0.6'
 	id 'com.github.ben-manes.versions' version '0.46.0'
 	id 'java'
 	id 'idea'
@@ -56,5 +56,5 @@ idea {
 
 
 wrapper {
-	gradleVersion = '8.1'
+	gradleVersion = '8.1.1'
 }
