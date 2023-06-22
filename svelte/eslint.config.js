@@ -2,7 +2,7 @@ import koffeine from '@koffeine/eslint-config';
 import globals from 'globals';
 import sveltePlugin from 'eslint-plugin-svelte3';
 
-/** @type {import("eslint").Linter.FlatConfig[]} */
+/** @type {import('eslint').Linter.FlatConfig[]} */
 export default [
 	koffeine,
 	{
