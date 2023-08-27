@@ -5,10 +5,10 @@
     "test": "eslint . && tsc -p jsconfig.json"
   },
   "devDependencies": {
-    "@koffeine/eslint-config": "30.8.0",
-    "eslint": "8.47.0",
+    "@koffeine/eslint-config": "30.9.0",
+    "eslint": "8.48.0",
     "globals": "13.21.0",
-    "typescript": "5.1.6"
+    "typescript": "5.2.2"
   },
   "private": true
 }
