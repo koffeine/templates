@@ -3,6 +3,7 @@ package koffeine.controller;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
+import org.springframework.security.access.AccessDeniedException;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -18,6 +19,11 @@ public class ExceptionController {
 	@ResponseStatus(HttpStatus.BAD_REQUEST)
 	public void methodArgumentNotValidException(MethodArgumentNotValidException e) {
 		LOGGER.debug("Bad request {}", e.getMessage());
+	}
+
+	@ExceptionHandler(AccessDeniedException.class)
+	@ResponseStatus(HttpStatus.FORBIDDEN)
+	public void accessDeniedException() {
 	}
 
 	@ExceptionHandler(NoHandlerFoundException.class)

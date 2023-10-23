@@ -3,6 +3,12 @@ spring:
         resources:
             add-mappings: false
 
+server:
+    servlet:
+        session:
+            cookie:
+                same-site: strict
+
 logging:
     level:
         org.springframework.web.servlet.PageNotFound: off
