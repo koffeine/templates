@@ -6,6 +6,7 @@ import org.springframework.beans.TypeMismatchException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.converter.HttpMessageNotReadableException;
+import org.springframework.security.access.AccessDeniedException;
 import org.springframework.web.ErrorResponse;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
@@ -18,6 +19,12 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 public class ExceptionHandlerAdvice {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(ExceptionHandlerAdvice.class);
+
+	@ExceptionHandler
+	@ResponseStatus(HttpStatus.FORBIDDEN)
+	public void accessDeniedException(AccessDeniedException exception) {
+		LOGGER.debug(exception.getMessage());
+	}
 
 	@ExceptionHandler
 	@ResponseStatus(HttpStatus.BAD_REQUEST)
