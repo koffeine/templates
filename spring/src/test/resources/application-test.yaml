@@ -1,2 +1,10 @@
 cors:
     allowed-origins: http://localhost:3000
+
+# FOR OAuth 2.0
+#spring:
+#    security:
+#        oauth2:
+#            resourceserver:
+#                jwt:
+#                    jwk-set-uri: http://localhost
