@@ -5,6 +5,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.converter.HttpMessageNotReadableException;
+import org.springframework.security.access.AccessDeniedException;
 import org.springframework.util.StringUtils;
 import org.springframework.validation.FieldError;
 import org.springframework.validation.ObjectError;
@@ -55,6 +56,12 @@ public class ExceptionController {
 		}
 
 		LOGGER.debug(sb.toString());
+	}
+
+	@ExceptionHandler(AccessDeniedException.class)
+	@ResponseStatus(HttpStatus.FORBIDDEN)
+	public void accessDeniedException() {
+		LOGGER.debug("Access denied");
 	}
 
 	@ExceptionHandler(Throwable.class)
