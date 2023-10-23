@@ -5,6 +5,12 @@ spring:
         resources:
             add-mappings: false
 
+server:
+    servlet:
+        session:
+            cookie:
+                same-site: strict
+
 logging:
     level:
         koffeine: debug
