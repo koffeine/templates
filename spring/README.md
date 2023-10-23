@@ -29,3 +29,39 @@ git add .
 		- KoffeineApplication
 			- VM options: `-Dspring.config.location=classpath:/`
 			- Active profiles: `dev`
+
+## Docker
+
+__Build__
+
+```sh
+./gradlew clean bootJar
+java -Djarmode=tools -jar build/libs/*.jar extract --layers --launcher --destination build/extracted
+docker build -t spring .
+```
+
+__docker run__
+
+```sh
+docker run \
+	-p 8080:8080 \
+	-e spring.config.location=classpath:/ \
+	-e spring.profiles.active=dev \
+	-e spring.output.ansi.enabled=always \
+	--rm \
+	spring
+```
+
+__compose.yaml__
+
+```yaml
+services:
+    spring:
+        image: spring
+        ports:
+            - 8080:8080
+        environment:
+            - spring.config.location=classpath:/
+            - spring.profiles.active=dev
+            - spring.output.ansi.enabled=always
+```
