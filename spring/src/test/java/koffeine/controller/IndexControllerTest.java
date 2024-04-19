@@ -10,13 +10,13 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 @WebMvcTest(IndexController.class)
-public class IndexControllerTest extends AbstractControllerTest {
+class IndexControllerTest extends AbstractControllerTest {
 
 	@Autowired
 	private MockMvc mockMvc;
 
 	@Test
-	public void testIndex() throws Exception {
+	void testIndex() throws Exception {
 		mockMvc
 			.perform(get("/"))
 			.andExpect(status().isOk())
@@ -24,7 +24,7 @@ public class IndexControllerTest extends AbstractControllerTest {
 	}
 
 	@Test
-	public void testNoHandlerFound() throws Exception {
+	void testNoHandlerFound() throws Exception {
 		mockMvc
 			.perform(get("/not-found"))
 			.andExpect(status().isNotFound())
@@ -32,7 +32,7 @@ public class IndexControllerTest extends AbstractControllerTest {
 	}
 
 	@Test
-	public void testHttpRequestMethodNotSupportedException() throws Exception {
+	void testHttpRequestMethodNotSupportedException() throws Exception {
 		mockMvc
 			.perform(post("/"))
 			.andExpect(status().isNotFound())
@@ -40,7 +40,7 @@ public class IndexControllerTest extends AbstractControllerTest {
 	}
 
 	@Test
-	public void testCors() throws Exception {
+	void testCors() throws Exception {
 		mockMvc
 			.perform(get("/").header(HttpHeaders.ORIGIN, "http://not-allowed"))
 			.andExpect(status().isForbidden())
