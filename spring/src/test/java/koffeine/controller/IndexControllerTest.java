@@ -24,9 +24,17 @@ public class IndexControllerTest extends AbstractControllerTest {
 	}
 
 	@Test
-	public void testNotFound() throws Exception {
+	public void testNoHandlerFound() throws Exception {
 		mockMvc
 			.perform(get("/not-found"))
+			.andExpect(status().isNotFound())
+			.andExpect(content().string(""));
+	}
+
+	@Test
+	public void testHttpRequestMethodNotSupportedException() throws Exception {
+		mockMvc
+			.perform(post("/"))
 			.andExpect(status().isNotFound())
 			.andExpect(content().string(""));
 	}
