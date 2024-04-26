@@ -47,7 +47,7 @@ test {
 
 
 dependencyUpdates.rejectVersionIf { version ->
-	[].any { qualifier ->
+	[ 'm' ].any { qualifier ->
 		version.candidate.version ==~ /(?i).*[\.-]${qualifier}[\d]*/
 	}
 }
