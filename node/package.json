@@ -2,11 +2,11 @@
   "name": "koffeine",
   "type": "module",
   "scripts": {
-    "test": "eslint . && tsc -p jsconfig.json"
+    "test": "eslint && tsc -p jsconfig.json"
   },
   "devDependencies": {
-    "@koffeine/eslint-config": "33.5.0",
-    "eslint": "8.57.0",
+    "@koffeine/eslint-config": "35.0.0",
+    "eslint": "9.3.0",
     "globals": "15.3.0",
     "typescript": "5.4.5"
   },
