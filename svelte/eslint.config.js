@@ -3,7 +3,7 @@ import globals from 'globals';
 import svelteParser from 'svelte-eslint-parser';
 import sveltePlugin from 'eslint-plugin-svelte';
 
-/** @type {import('eslint').Linter.FlatConfig[]} */
+/** @type {import('eslint').Linter.Config[]} */
 export default [
 	koffeine,
 	{
