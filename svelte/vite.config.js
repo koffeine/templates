@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite';
 import { svelte } from '@sveltejs/vite-plugin-svelte';
 
-export default defineConfig({
+/** @type {import('vite').UserConfigExport} */
+export default {
 	plugins: [ svelte() ],
 
 	server: { open: true },
@@ -11,4 +11,4 @@ export default defineConfig({
 		rollupOptions: { output: { generatedCode: 'es2015' } },
 		reportCompressedSize: false
 	}
-});
+};
