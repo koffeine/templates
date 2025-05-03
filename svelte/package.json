@@ -12,14 +12,14 @@
     "@koffeine/svelte-router": "4.0.0"
   },
   "devDependencies": {
-    "@koffeine/eslint-config": "40.15.0",
+    "@koffeine/eslint-config": "41.0.0",
     "@sveltejs/vite-plugin-svelte": "5.0.3",
-    "eslint": "9.25.1",
+    "eslint": "9.26.0",
     "eslint-plugin-svelte": "3.5.1",
     "globals": "16.0.0",
     "svelte": "5.28.2",
-    "svelte-check": "4.1.6",
-    "vite": "6.3.3"
+    "svelte-check": "4.1.7",
+    "vite": "6.3.4"
   },
   "private": true
 }
