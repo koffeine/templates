@@ -13,6 +13,13 @@ export default [
 		}
 	},
 	{
+		files: [ 'src/**/*.svelte.js' ],
+		languageOptions: {
+			globals: globals.browser,
+			parser: svelteParser
+		}
+	},
+	{
 		files: [ 'src/**/*.svelte' ],
 		languageOptions: {
 			globals: globals.browser,
