@@ -1,0 +1,20 @@
+{
+	"include": [ "src/**/*.js", "src/**/*.vue", "src/**/*.d.ts" ],
+	"compilerOptions": {
+		// Type Checking
+		"strict": true,
+
+		// Modules
+		"module": "esnext",
+		"moduleResolution": "bundler",
+
+		// JavaScript Support
+		"checkJs": true,
+
+		// Language and Environment
+		"target": "esnext",
+
+		// Completeness
+		"skipLibCheck": true
+	}
+}
