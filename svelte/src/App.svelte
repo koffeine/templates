@@ -1,5 +1,7 @@
 <script>
 import { route } from '@koffeine/svelte-router';
+
+const RouteComponent = $derived($route.component);
 </script>
 
-<svelte:component this={$route.component} {...$route.params} />
+<RouteComponent {...$route.params} />
