@@ -1,7 +1,7 @@
 import koffeine from '@koffeine/eslint-config';
 import globals from 'globals';
-import reactHooks from 'eslint-plugin-react-hooks';
-import reactRefresh from 'eslint-plugin-react-refresh';
+import reactHooksPlugin from 'eslint-plugin-react-hooks';
+import reactRefreshPlugin from 'eslint-plugin-react-refresh';
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
@@ -23,8 +23,8 @@ export default [
 			}
 		},
 		plugins: {
-			'react-hooks': reactHooks,
-			'react-refresh': reactRefresh
+			'react-hooks': reactHooksPlugin,
+			'react-refresh': reactRefreshPlugin
 		},
 		rules: {
 			// eslint base
