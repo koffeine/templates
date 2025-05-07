@@ -1,0 +1,21 @@
+{
+	"include": [ "src/**/*.js", "src/**/*.jsx" ],
+	"compilerOptions": {
+		// Type Checking
+		"strict": true,
+
+		// Modules
+		"module": "esnext",
+		"moduleResolution": "bundler",
+
+		// JavaScript Support
+		"checkJs": true,
+
+		// Language and Environment
+		"jsx": "preserve",
+		"target": "esnext",
+
+		// Completeness
+		"skipLibCheck": true
+	}
+}
