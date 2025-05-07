@@ -1,0 +1,8 @@
+# Sublime Text
+*.sublime-*
+
+# NPM
+node_modules/
+
+# Build
+dist/
