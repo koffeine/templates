@@ -27,11 +27,14 @@ export default [
 			'react-refresh': reactRefresh
 		},
 		rules: {
+			// eslint base
 			'no-unused-vars': [ 'error', { vars: 'all', args: 'after-used', ignoreRestSiblings: false, caughtErrors: 'all', ignoreClassWithStaticInitBlock: false, reportUsedIgnorePattern: false, varsIgnorePattern: '^[A-Z]' } ],
 
-			'react-hooks/rules-of-hooks': 'error',
+			// react-hooks recommended
 			'react-hooks/exhaustive-deps': 'warn',
+			'react-hooks/rules-of-hooks': 'error',
 
+			// react-refresh recommended
 			'react-refresh/only-export-components': 'error'
 		}
 	}
