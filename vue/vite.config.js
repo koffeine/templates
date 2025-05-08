@@ -8,7 +8,6 @@ export default {
 
 	build: {
 		target: 'esnext',
-		rollupOptions: { output: { generatedCode: 'es2015' } },
 		reportCompressedSize: false
 	}
 };
