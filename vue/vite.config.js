@@ -2,7 +2,7 @@ import vue from '@vitejs/plugin-vue';
 
 /** @type {import('vite').UserConfigExport} */
 export default {
-	plugins: [ vue() ],
+	plugins: [ vue({ features: { optionsAPI: false } }) ],
 
 	server: { open: true },
 
