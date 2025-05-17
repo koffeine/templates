@@ -9,16 +9,16 @@
   },
   "dependencies": {
     "@koffeine/kss": "3.0.0",
-    "@koffeine/svelte-router": "4.0.4"
+    "@koffeine/svelte-router": "4.0.5"
   },
   "devDependencies": {
-    "@koffeine/eslint-config": "41.0.0",
+    "@koffeine/eslint-config": "42.0.0",
     "@sveltejs/vite-plugin-svelte": "5.0.3",
-    "eslint": "9.26.0",
-    "eslint-plugin-svelte": "3.5.1",
+    "eslint": "9.27.0",
+    "eslint-plugin-svelte": "3.8.0",
     "globals": "16.1.0",
-    "svelte": "5.28.2",
-    "svelte-check": "4.1.7",
+    "svelte": "5.30.2",
+    "svelte-check": "4.2.1",
     "vite": "6.3.5"
   },
   "private": true
