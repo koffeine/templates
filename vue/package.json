@@ -12,7 +12,7 @@
     "vue": "3.5.14"
   },
   "devDependencies": {
-    "@koffeine/eslint-config": "42.0.0",
+    "@koffeine/eslint-config": "43.0.0",
     "@vitejs/plugin-vue": "5.2.4",
     "eslint": "9.27.0",
     "eslint-plugin-vue": "10.1.0",
