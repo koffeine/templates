@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@koffeine/kss": "3.0.0",
-    "vue": "3.5.16"
+    "vue": "3.5.17"
   },
   "devDependencies": {
     "@koffeine/eslint-config": "43.3.0",
