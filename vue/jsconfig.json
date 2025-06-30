@@ -1,12 +1,15 @@
 {
-	"include": [ "src/**/*.js", "src/**/*.vue", "src/**/*.d.ts" ],
+	"include": [
+		"src/**/*.js",
+		"src/**/*.vue",
+		"src/**/*.d.ts"
+	],
 	"compilerOptions": {
 		// Type Checking
 		"strict": true,
 
 		// Modules
-		"module": "esnext",
-		"moduleResolution": "bundler",
+		"module": "preserve",
 
 		// JavaScript Support
 		"checkJs": true,

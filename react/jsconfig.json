@@ -1,12 +1,14 @@
 {
-	"include": [ "src/**/*.js", "src/**/*.jsx" ],
+	"include": [
+		"src/**/*.js",
+		"src/**/*.jsx"
+	],
 	"compilerOptions": {
 		// Type Checking
 		"strict": true,
 
 		// Modules
-		"module": "esnext",
-		"moduleResolution": "bundler",
+		"module": "preserve",
 
 		// JavaScript Support
 		"checkJs": true,
