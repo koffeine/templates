@@ -5,8 +5,7 @@
 		"strict": true,
 
 		// Modules
-		"module": "esnext",
-		"moduleResolution": "bundler",
+		"module": "nodenext",
 
 		// JavaScript Support
 		"checkJs": true,
