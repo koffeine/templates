@@ -5,7 +5,7 @@ import reactRefreshPlugin from 'eslint-plugin-react-refresh';
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
-	koffeine,
+	...koffeine,
 	{
 		files: [ 'src/**/*.js' ],
 		languageOptions: {
