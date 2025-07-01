@@ -32,6 +32,7 @@ export default [
 			// react
 			...reactPlugin.configs.flat.recommended.rules,
 			...reactPlugin.configs.flat['jsx-runtime'].rules,
+			'react/prop-types': 'off', // doesn't support JSDoc
 
 			// react-hooks
 			...reactHooksPlugin.configs.recommended.rules,
