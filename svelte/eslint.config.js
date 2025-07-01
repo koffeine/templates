@@ -5,7 +5,7 @@ import sveltePlugin from 'eslint-plugin-svelte';
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
-	koffeine,
+	...koffeine,
 	{
 		files: [ 'src/**/*.js' ],
 		languageOptions: {

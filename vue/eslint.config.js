@@ -5,7 +5,7 @@ import vuePlugin from 'eslint-plugin-vue';
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
-	koffeine,
+	...koffeine,
 	{
 		files: [ 'src/**/*.js' ],
 		languageOptions: {

@@ -3,7 +3,7 @@ import globals from 'globals';
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
-	koffeine,
+	...koffeine,
 	{
 		files: [ 'src/**/*.js' ],
 		languageOptions: {
