@@ -1,5 +1,6 @@
 import koffeine from '@koffeine/eslint-config';
 import globals from 'globals';
+import reactPlugin from 'eslint-plugin-react';
 import reactHooksPlugin from 'eslint-plugin-react-hooks';
 import reactRefreshPlugin from 'eslint-plugin-react-refresh';
 
@@ -23,19 +24,25 @@ export default [
 			}
 		},
 		plugins: {
+			react: reactPlugin,
 			'react-hooks': reactHooksPlugin,
 			'react-refresh': reactRefreshPlugin
 		},
 		rules: {
-			// eslint base
-			'no-unused-vars': [ 'error', { vars: 'all', args: 'after-used', ignoreRestSiblings: false, caughtErrors: 'all', ignoreClassWithStaticInitBlock: false, reportUsedIgnorePattern: false, varsIgnorePattern: '^[A-Z]' } ],
+			// react
+			...reactPlugin.configs.flat.recommended.rules,
+			...reactPlugin.configs.flat['jsx-runtime'].rules,
 
-			// react-hooks recommended
-			'react-hooks/exhaustive-deps': 'warn',
-			'react-hooks/rules-of-hooks': 'error',
+			// react-hooks
+			...reactHooksPlugin.configs.recommended.rules,
 
-			// react-refresh recommended
-			'react-refresh/only-export-components': 'error'
+			// react-refresh
+			...reactRefreshPlugin.configs.vite.rules
+		},
+		settings: {
+			react: {
+				version: 'detect'
+			}
 		}
 	}
 ];
