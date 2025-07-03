@@ -1,5 +1,6 @@
 {
 	"name": "koffeine",
+	"private": true,
 	"type": "module",
 	"scripts": {
 		"test": "eslint && vue-tsc -p jsconfig.json ",
@@ -20,6 +21,5 @@
 		"vite": "7.0.0",
 		"vue-eslint-parser": "10.2.0",
 		"vue-tsc": "3.0.0"
-	},
-	"private": true
+	}
 }
