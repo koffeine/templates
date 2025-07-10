@@ -7,24 +7,19 @@ import sveltePlugin from 'eslint-plugin-svelte';
 export default [
 	...koffeine,
 	{
-		files: [ 'src/**/*.js' ],
+		files: [ 'src/**/*' ],
 		languageOptions: {
 			globals: globals.browser
 		}
 	},
 	{
-		files: [ 'src/**/*.svelte.js' ],
+		files: [ '**/*.svelte', '**/*.svelte.js' ],
 		languageOptions: {
-			globals: globals.browser,
 			parser: svelteParser
 		}
 	},
 	{
-		files: [ 'src/**/*.svelte' ],
-		languageOptions: {
-			globals: globals.browser,
-			parser: svelteParser
-		},
+		files: [ '**/*.svelte' ],
 		processor: sveltePlugin.processors.svelte,
 		plugins: {
 			svelte: sveltePlugin

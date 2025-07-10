@@ -8,15 +8,14 @@ import reactRefreshPlugin from 'eslint-plugin-react-refresh';
 export default [
 	...koffeine,
 	{
-		files: [ 'src/**/*.js' ],
+		files: [ 'src/**/*' ],
 		languageOptions: {
 			globals: globals.browser
 		}
 	},
 	{
-		files: [ 'src/**/*.jsx' ],
+		files: [ '**/*.jsx' ],
 		languageOptions: {
-			globals: globals.browser,
 			parserOptions: {
 				ecmaFeatures: {
 					jsx: true
