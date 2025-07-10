@@ -13,16 +13,13 @@ export default [
 		}
 	},
 	{
-		files: [ 'src/**/*.svelte.js' ],
+		files: [ '**/*.svelte', '**/*.svelte.js' ],
 		languageOptions: {
 			parser: svelteParser
 		}
 	},
 	{
-		files: [ 'src/**/*.svelte' ],
-		languageOptions: {
-			parser: svelteParser
-		},
+		files: [ '**/*.svelte' ],
 		processor: sveltePlugin.processors.svelte,
 		plugins: {
 			svelte: sveltePlugin
