@@ -1,7 +1,6 @@
 {
 	"include": [
-		"src/**/*.js",
-		"src/**/*.svelte"
+		"src/**/*"
 	],
 	"compilerOptions": {
 		// Type Checking

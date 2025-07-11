@@ -1,7 +1,6 @@
 {
 	"include": [
-		"src/**/*.js",
-		"src/**/*.jsx"
+		"src/**/*"
 	],
 	"compilerOptions": {
 		// Type Checking

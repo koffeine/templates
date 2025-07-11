@@ -1,5 +1,7 @@
 {
-	"include": [ "src/**/*.js" ],
+	"include": [
+		"src/**/*"
+	],
 	"compilerOptions": {
 		// Type Checking
 		"strict": true,

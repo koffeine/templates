@@ -1,8 +1,6 @@
 {
 	"include": [
-		"src/**/*.js",
-		"src/**/*.vue",
-		"src/**/*.d.ts"
+		"src/**/*"
 	],
 	"compilerOptions": {
 		// Type Checking
