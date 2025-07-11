@@ -4,7 +4,6 @@ import vueParser from 'vue-eslint-parser';
 import vuePlugin from 'eslint-plugin-vue';
 
 /** @type {import('eslint').Linter.Config[]} */
-// @ts-ignore: reduce returns RulesRecord
 export default [
 	...koffeine,
 	{

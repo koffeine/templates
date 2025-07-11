@@ -1,5 +1,7 @@
 {
-	"include": [ "**/*" ],
+	"include": [
+		"src/**/*"
+	],
 	"compilerOptions": {
 		// Type Checking
 		"strict": true,
