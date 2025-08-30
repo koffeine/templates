@@ -1,4 +1,4 @@
-/** @type {{ compilerOptions: import('svelte/compiler').CompileOptions }} */
+/** @type {import('@sveltejs/vite-plugin-svelte').SvelteConfig} */
 export default {
 	compilerOptions: {
 		runes: true
