@@ -1,6 +1,6 @@
 import koffeine from '@koffeine/eslint-config';
 import globals from 'globals';
-import reactPlugin from 'eslint-plugin-react';
+import reactPlugin from '@eslint-react/eslint-plugin';
 import reactHooksPlugin from 'eslint-plugin-react-hooks';
 import reactRefreshPlugin from 'eslint-plugin-react-refresh';
 
@@ -23,15 +23,13 @@ export default [
 			}
 		},
 		plugins: {
-			react: reactPlugin,
+			...reactPlugin.configs.recommended.plugins,
 			'react-hooks': reactHooksPlugin,
 			'react-refresh': reactRefreshPlugin
 		},
 		rules: {
 			// react
-			...reactPlugin.configs.flat.recommended.rules,
-			...reactPlugin.configs.flat['jsx-runtime'].rules,
-			'react/prop-types': 'off', // doesn't support JSDoc
+			...reactPlugin.configs.recommended.rules,
 
 			// react-hooks
 			...reactHooksPlugin.configs.recommended.rules,
@@ -40,9 +38,7 @@ export default [
 			...reactRefreshPlugin.configs.vite.rules
 		},
 		settings: {
-			react: {
-				version: 'detect'
-			}
+			...reactPlugin.configs.recommended.settings
 		}
 	}
 ];
