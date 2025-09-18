@@ -31,7 +31,7 @@ dependencies {
 }
 
 java {
-	sourceCompatibility = JavaVersion.VERSION_21
+	sourceCompatibility = JavaVersion.VERSION_25
 }
 
 tasks.withType(JavaCompile).configureEach {
@@ -61,5 +61,5 @@ idea {
 
 
 wrapper {
-	gradleVersion = '8.14.3'
+	gradleVersion = '9.0.0'
 }
