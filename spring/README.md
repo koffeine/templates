@@ -24,7 +24,11 @@ git add .
 
 ## IDEA
 
-- Run/Debug Configurations
+- File / Project Structure...
+	- Project Settings
+		- Project
+			- SDK: `25`
+- Run / Edit Configurations...
 	- Spring Boot
 		- KoffeineApplication
 			- VM options: `-Dspring.config.location=classpath:/`
