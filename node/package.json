@@ -6,9 +6,9 @@
 		"test": "eslint && tsc -p jsconfig.json"
 	},
 	"devDependencies": {
-		"@koffeine/eslint-config": "47.0.0",
-		"eslint": "9.38.0",
-		"globals": "16.4.0",
+		"@koffeine/eslint-config": "47.1.0",
+		"eslint": "9.39.0",
+		"globals": "16.5.0",
 		"typescript": "5.9.3"
 	}
 }
