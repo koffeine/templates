@@ -31,5 +31,4 @@ git add .
 - Run / Edit Configurations...
 	- Spring Boot
 		- KoffeineApplication
-			- VM options: `-Dspring.config.location=classpath:/`
 			- Active profiles: `dev`
