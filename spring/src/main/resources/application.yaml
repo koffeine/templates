@@ -1,4 +1,6 @@
 spring:
+    autoconfigure:
+        exclude: org.springframework.boot.webmvc.autoconfigure.error.ErrorMvcAutoConfiguration
     web:
         resources:
             add-mappings: false
