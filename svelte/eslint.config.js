@@ -7,6 +7,12 @@ export default [
 	...koffeine,
 	...koffeineSvelte,
 	{
+		files: [ '*' ],
+		languageOptions: {
+			globals: globals.node
+		}
+	},
+	{
 		files: [ 'src/**/*' ],
 		languageOptions: {
 			globals: globals.browser
