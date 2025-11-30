@@ -47,9 +47,12 @@ test {
 }
 
 
-dependencyUpdates.rejectVersionIf { version ->
-	[ 'rc', 'm' ].any { qualifier ->
-		version.candidate.version ==~ /(?i).*[\.-]${qualifier}[\d]*/
+dependencyUpdates {
+	gradleReleaseChannel = 'current'
+	rejectVersionIf { version ->
+		[ 'rc', 'm' ].any { qualifier ->
+			version.candidate.version ==~ /(?i).*[\.-]${qualifier}[\d]*/
+		}
 	}
 }
 
