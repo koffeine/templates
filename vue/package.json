@@ -2,7 +2,9 @@
 	"type": "module",
 	"scripts": {
 		"test": "eslint && vue-tsc -p jsconfig.json ",
-		"dev": "vite"
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
 	},
 	"dependencies": {
 		"@koffeine/kss": "4.4.0",
