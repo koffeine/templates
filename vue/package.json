@@ -19,5 +19,11 @@
 		"vite": "7.2.6",
 		"vue-eslint-parser": "10.2.0",
 		"vue-tsc": "3.1.5"
+	},
+	"devEngines": {
+		"runtime": {
+			"name": "node",
+			"version": "24"
+		}
 	}
 }
