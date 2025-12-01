@@ -12,7 +12,3 @@ cd <dir>
 git init
 git add .
 ```
-
-## Replace
-
-Nothing.
