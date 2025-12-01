@@ -19,5 +19,11 @@
 		"svelte": "5.45.2",
 		"svelte-check": "4.3.4",
 		"vite": "7.2.6"
+	},
+	"devEngines": {
+		"runtime": {
+			"name": "node",
+			"version": "24"
+		}
 	}
 }
