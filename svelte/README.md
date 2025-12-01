@@ -17,5 +17,4 @@ git add .
 
 ## Replace
 
-- package.json: name
 - index.html: title

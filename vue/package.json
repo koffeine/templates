@@ -1,5 +1,4 @@
 {
-	"name": "koffeine",
 	"type": "module",
 	"scripts": {
 		"test": "eslint && vue-tsc -p jsconfig.json ",
