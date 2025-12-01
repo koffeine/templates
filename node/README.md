@@ -17,4 +17,4 @@ git add .
 
 ## Replace
 
-- package.json: name
+Nothing.
