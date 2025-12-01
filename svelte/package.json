@@ -1,6 +1,5 @@
 {
 	"name": "koffeine",
-	"private": true,
 	"type": "module",
 	"scripts": {
 		"test": "eslint && svelte-check --tsconfig jsconfig.json",
