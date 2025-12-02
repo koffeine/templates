@@ -4,7 +4,8 @@
 		"strict": true,
 
 		// Modules
-		"module": "preserve",
+		"module": "esnext",
+		"moduleResolution": "bundler",
 
 		// JavaScript Support
 		"checkJs": true,

@@ -1,7 +1,7 @@
 {
 	"type": "module",
 	"scripts": {
-		"test": "eslint && vue-tsc -p jsconfig.json ",
+		"test": "eslint && vue-tsc -p jsconfig.json",
 		"dev": "vite",
 		"build": "vite build",
 		"preview": "vite preview"

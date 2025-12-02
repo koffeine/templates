@@ -5,6 +5,7 @@
 
 		// Modules
 		"module": "nodenext",
+		"moduleResolution": "nodenext",
 
 		// JavaScript Support
 		"checkJs": true,
