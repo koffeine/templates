@@ -6,3 +6,6 @@ init([
 </script>
 
 <route.component {...route.params} />
+
+<style>
+</style>
