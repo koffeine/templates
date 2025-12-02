@@ -5,8 +5,15 @@
 
 		// Modules
 		"module": "nodenext",
+		"moduleResolution": "nodenext",
 
 		// JavaScript Support
-		"checkJs": true
+		"checkJs": true,
+
+		// Language and Environment
+		"target": "esnext",
+
+		// Completeness
+		"skipLibCheck": true
 	}
 }

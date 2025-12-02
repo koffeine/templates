@@ -4,13 +4,16 @@
 		"strict": true,
 
 		// Modules
-		"module": "preserve",
+		"module": "esnext",
 		"moduleResolution": "bundler",
 
 		// JavaScript Support
 		"checkJs": true,
 
 		// Language and Environment
-		"target": "esnext"
+		"target": "esnext",
+
+		// Completeness
+		"skipLibCheck": true
 	}
 }
