@@ -5,15 +5,12 @@
 
 		// Modules
 		"module": "preserve",
-		"moduleResolution": "bundler", // svelte-check doesn't set default based on module
+		"moduleResolution": "bundler",
 
 		// JavaScript Support
 		"checkJs": true,
 
 		// Language and Environment
-		"target": "esnext",
-
-		// Completeness
-		"skipLibCheck": true
+		"target": "esnext"
 	}
 }

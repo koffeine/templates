@@ -10,9 +10,6 @@
 		"checkJs": true,
 
 		// Language and Environment
-		"target": "esnext",
-
-		// Completeness
-		"skipLibCheck": true
+		"target": "esnext"
 	}
 }
