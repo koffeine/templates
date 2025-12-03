@@ -7,7 +7,7 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
-		"@koffeine/kss": "^4.4.0",
+		"@koffeine/kss": "^4.4.1",
 		"vue": "^3.5.25"
 	},
 	"devDependencies": {
