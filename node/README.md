@@ -9,8 +9,8 @@ npx degit koffeine/templates/node <dir>
 
 cd <dir>
 
-npm ci
-
 git init
 git add .
+
+npm ci
 ```
