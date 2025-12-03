@@ -7,8 +7,8 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
-		"@koffeine/kss": "^4.4.0",
-		"@koffeine/svelte-router": "^6.0.2"
+		"@koffeine/kss": "^4.4.1",
+		"@koffeine/svelte-router": "^6.0.3"
 	},
 	"devDependencies": {
 		"@koffeine/eslint-config": "^47.4.0",
