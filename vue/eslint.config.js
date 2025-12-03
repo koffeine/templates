@@ -7,6 +7,9 @@ import vuePlugin from 'eslint-plugin-vue';
 export default [
 	...koffeine,
 	{
+		ignores: [ 'dist' ],
+	},
+	{
 		files: [ '*' ],
 		languageOptions: {
 			globals: globals.node
