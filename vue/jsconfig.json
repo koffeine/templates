@@ -1,4 +1,7 @@
 {
+	"exclude": [
+		"dist"
+	],
 	"compilerOptions": {
 		// Type Checking
 		"strict": true,

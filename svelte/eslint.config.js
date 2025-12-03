@@ -7,6 +7,9 @@ export default [
 	...koffeine,
 	...koffeineSvelte,
 	{
+		ignores: [ 'dist' ],
+	},
+	{
 		files: [ '*' ],
 		languageOptions: {
 			globals: globals.node
