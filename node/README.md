@@ -14,3 +14,30 @@ git add .
 
 npm ci
 ```
+
+## Docker
+
+__Build__
+
+```sh
+docker build -t node .
+```
+
+__docker run__
+
+```sh
+docker run \
+	-e NODE_ENV=production \
+	--rm \
+	node
+```
+
+__compose.yaml__
+
+```yaml
+services:
+    node:
+        image: node
+        environment:
+            - NODE_ENV=production=dev
+```
