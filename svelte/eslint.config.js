@@ -16,7 +16,7 @@ export default [
 		}
 	},
 	{
-		files: [ 'src/**/*' ],
+		files: [ 'src/**/*', 'test/**/*' ],
 		languageOptions: {
 			globals: globals.browser
 		}
