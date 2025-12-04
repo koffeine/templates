@@ -10,7 +10,7 @@ export default [
 		ignores: [ 'dist' ],
 	},
 	{
-		files: [ '*' ],
+		files: [ '*', 'test/**/*' ],
 		languageOptions: {
 			globals: globals.node
 		}
