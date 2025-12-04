@@ -42,6 +42,10 @@ tasks.withType(JavaCompile).configureEach {
 
 jar.enabled = false
 
+bootJar {
+	archiveFileName = 'application.jar'
+}
+
 test {
 	useJUnitPlatform()
 }
