@@ -28,3 +28,37 @@ git add .
 	- Spring Boot
 		- KoffeineApplication
 			- Active profiles: `dev`
+
+## Docker
+
+__Build__
+
+```sh
+./gradlew clean bootJar
+java -Djarmode=tools -jar build/libs/application.jar extract --layers --destination build/extracted
+docker build -t spring .
+```
+
+__docker run__
+
+```sh
+docker run \
+	-p 8080:8080 \
+	-e spring.profiles.active=dev \
+	-e spring.output.ansi.enabled=always \
+	--rm \
+	spring
+```
+
+__compose.yaml__
+
+```yaml
+services:
+    spring:
+        image: spring
+        ports:
+            - 8080:8080
+        environment:
+            - spring.profiles.active=dev
+            - spring.output.ansi.enabled=always
+```
