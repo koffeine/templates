@@ -13,6 +13,7 @@ git init
 git add .
 
 npm ci
+npm init
 ```
 
 ## Replace
