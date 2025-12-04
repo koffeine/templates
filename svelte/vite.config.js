@@ -1,7 +1,7 @@
 import { svelte } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('vite').UserConfigExport} */
-export default {
+export default ({ mode }) => ({
 	plugins: [ svelte({
 		compilerOptions: { runes: true },
 		configFile: false
@@ -9,8 +9,12 @@ export default {
 
 	server: { open: true },
 
+	resolve: {
+		alias: mode === 'production' ? [ { find: /^(.*)\/env\.js$/v, replacement: '$1/env.production.js' } ] : []
+	},
+
 	build: {
 		target: 'esnext',
 		reportCompressedSize: false
 	}
-};
+});
