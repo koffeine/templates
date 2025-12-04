@@ -1,13 +1,15 @@
 {
 	"type": "module",
 	"scripts": {
-		"test": "eslint && tsc -p jsconfig.json"
+		"test": "eslint && tsc -p jsconfig.json && vitest run"
 	},
 	"devDependencies": {
 		"@koffeine/eslint-config": "^48.2.0",
+		"@vitest/coverage-v8": "^4.0.18",
 		"eslint": "^10.0.2",
 		"globals": "^17.3.0",
-		"typescript": "^5.9.3"
+		"typescript": "^5.9.3",
+		"vitest": "^4.0.15"
 	},
 	"devEngines": {
 		"runtime": {
