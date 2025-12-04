@@ -14,3 +14,27 @@ git add .
 
 npm ci
 ```
+
+## Docker
+
+__Build__
+
+```sh
+docker build -t node .
+```
+
+__docker run__
+
+```sh
+docker run \
+	--rm \
+	node
+```
+
+__compose.yaml__
+
+```yaml
+services:
+	node:
+		image: node
+```
