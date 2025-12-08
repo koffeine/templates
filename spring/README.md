@@ -24,10 +24,6 @@ git add .
 
 ## IDEA
 
-- File / Project Structure...
-	- Project Settings
-		- Project
-			- SDK: `25`
 - Run / Edit Configurations...
 	- Spring Boot
 		- KoffeineApplication
