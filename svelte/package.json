@@ -11,7 +11,7 @@
 		"@koffeine/svelte-router": "^6.0.5"
 	},
 	"devDependencies": {
-		"@koffeine/eslint-config": "^47.6.0",
+		"@koffeine/eslint-config": "^47.7.0",
 		"@koffeine/eslint-config-svelte": "^1.10.0",
 		"@sveltejs/vite-plugin-svelte": "^6.2.4",
 		"eslint": "^9.39.2",
