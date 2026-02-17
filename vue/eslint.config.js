@@ -31,10 +31,6 @@ export default [
 			vue: vuePlugin
 		},
 		rules: {
-			// eslint
-			'no-useless-assignment': 'off', // https://github.com/vuejs/eslint-plugin-vue/issues/2660
-
-			// vue
 			...vuePlugin.configs['flat/essential'].reduce(
 				(rules, config) => ({ ...rules, ...config.rules }),
 				/** @type {Partial<import('eslint').Linter.RulesRecord>} */ ({})
