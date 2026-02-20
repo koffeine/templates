@@ -11,9 +11,9 @@
 		"vue": "^3.5.25"
 	},
 	"devDependencies": {
-		"@koffeine/eslint-config": "^48.0.0",
+		"@koffeine/eslint-config": "^48.1.0",
 		"@vitejs/plugin-vue": "^6.0.4",
-		"eslint": "^10.0.0",
+		"eslint": "^10.0.1",
 		"eslint-plugin-vue": "^10.8.0",
 		"globals": "^17.3.0",
 		"vite": "^7.3.1",
