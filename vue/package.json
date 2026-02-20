@@ -12,7 +12,6 @@
 	},
 	"devDependencies": {
 		"@koffeine/eslint-config": "^48.0.0",
-		"@types/eslint-scope": "^8.4.0",
 		"@vitejs/plugin-vue": "^6.0.4",
 		"eslint": "^10.0.0",
 		"eslint-plugin-vue": "^10.8.0",
