@@ -6,6 +6,8 @@
 		// Modules
 		"module": "nodenext",
 		"moduleResolution": "nodenext",
+		"noUncheckedSideEffectImports": true,
+		"types": [],
 
 		// Emit
 		"noEmit": true,
