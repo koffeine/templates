@@ -15,6 +15,9 @@
 		"allowJs": true,
 		"checkJs": true,
 
+		// Editor Support
+		"plugins": [ { "name": "typescript-svelte-plugin" } ],
+
 		// Language and Environment
 		"target": "esnext",
 
