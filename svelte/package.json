@@ -23,7 +23,7 @@
 	},
 	"overrides": {
 		"svelte2tsx": {
-			"typescript": "^6.0.2"
+			"typescript": "^6.0.3"
 		}
 	},
 	"devEngines": {
