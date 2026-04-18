@@ -8,13 +8,13 @@
 	},
 	"dependencies": {
 		"@koffeine/kss": "^4.4.2",
-		"@koffeine/svelte-router": "^6.0.7"
+		"@koffeine/svelte-router": "^6.0.8"
 	},
 	"devDependencies": {
-		"@koffeine/eslint-config": "^48.6.0",
+		"@koffeine/eslint-config": "^48.7.0",
 		"@koffeine/eslint-config-svelte": "^2.4.0",
 		"@sveltejs/vite-plugin-svelte": "^6.2.4",
-		"eslint": "^10.2.0",
+		"eslint": "^10.2.1",
 		"globals": "^17.5.0",
 		"svelte": "^5.55.4",
 		"svelte-check": "^4.4.6",
