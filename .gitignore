@@ -1,2 +1,5 @@
 # Sublime Text
 *.sublime-*
+
+# VS Code
+*.code-workspace
