@@ -8,7 +8,7 @@
 	},
 	"dependencies": {
 		"@koffeine/kss": "^4.4.2",
-		"@koffeine/svelte-router": "^6.0.9"
+		"@koffeine/svelte-router": "^6.0.10"
 	},
 	"devDependencies": {
 		"@koffeine/eslint-config": "^48.7.0",
