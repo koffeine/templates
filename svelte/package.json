@@ -17,9 +17,9 @@
 		"eslint": "^10.4.1",
 		"globals": "^17.6.0",
 		"svelte": "^5.56.0",
-		"svelte-check": "^4.4.8",
+		"svelte-check": "^4.5.0",
 		"typescript-svelte-plugin": "^0.3.52",
-		"vite": "^7.3.3"
+		"vite": "^7.3.5"
 	},
 	"devEngines": {
 		"runtime": {
