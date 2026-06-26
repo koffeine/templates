@@ -11,15 +11,15 @@
 		"@koffeine/svelte-router": "^7.0.1"
 	},
 	"devDependencies": {
-		"@koffeine/eslint-config": "^48.11.0",
-		"@koffeine/eslint-config-svelte": "^3.1.0",
+		"@koffeine/eslint-config": "^49.2.0",
+		"@koffeine/eslint-config-svelte": "^6.0.0",
 		"@sveltejs/vite-plugin-svelte": "^6.2.4",
-		"eslint": "^10.5.0",
-		"globals": "^17.6.0",
-		"svelte": "^5.56.3",
-		"svelte-check": "^4.6.0",
+		"eslint": "^10.8.0",
+		"globals": "^17.8.0",
+		"svelte": "^5.56.8",
+		"svelte-check": "^4.7.4",
 		"typescript-svelte-plugin": "^0.3.52",
-		"vite": "^7.3.5"
+		"vite": "^7.3.6"
 	},
 	"allowScripts": {
 		"esbuild": true,
