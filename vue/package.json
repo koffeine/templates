@@ -11,13 +11,13 @@
 		"vue": "^3.5.41"
 	},
 	"devDependencies": {
-		"@koffeine/eslint-config": "^49.3.0",
+		"@koffeine/eslint-config": "^49.4.0",
 		"@vitejs/plugin-vue": "^6.0.8",
-		"eslint": "^10.8.1",
+		"eslint": "^10.9.0",
 		"eslint-plugin-vue": "^10.10.0",
-		"globals": "^17.9.0",
+		"globals": "^17.11.0",
 		"vite": "^7.3.6",
-		"vue-tsc": "^3.3.9"
+		"vue-tsc": "^3.3.11"
 	},
 	"overrides": {
 		"typescript": "^6.0.3"
