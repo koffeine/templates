@@ -4,8 +4,8 @@
 		"test": "eslint && tsc"
 	},
 	"devDependencies": {
-		"@koffeine/eslint-config": "^49.4.0",
-		"eslint": "^10.9.0",
+		"@koffeine/eslint-config": "^49.5.0",
+		"eslint": "^10.9.1",
 		"globals": "^17.11.0",
 		"typescript": "^6.0.3"
 	},
