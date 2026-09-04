@@ -1,6 +1,6 @@
 plugins {
-	id 'org.springframework.boot' version '4.1.1'
 	id 'java'
+	id 'org.springframework.boot' version '4.1.1'
 	id 'idea'
 }
 
@@ -31,12 +31,14 @@ dependencies {
 }
 
 java {
-	sourceCompatibility = JavaVersion.VERSION_25
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(25)
+	}
 }
 
 tasks.withType(JavaCompile).configureEach {
 	options.encoding = 'UTF-8'
-	options.compilerArgs = [ '-Xlint:deprecation', '-Xlint:unchecked', '-parameters' ]
+	options.compilerArgs += [ '-Xlint:deprecation', '-Xlint:unchecked', '-parameters' ]
 }
 
 jar.enabled = false
@@ -47,10 +49,11 @@ test {
 
 
 dependencyUpdates {
+	revision = 'release'
 	gradleReleaseChannel = 'current'
-	rejectVersionIf { version ->
-		[ 'rc', 'm' ].any { qualifier ->
-			version.candidate.version ==~ /(?i).*[\.-]${qualifier}[\d]*/
+	rejectVersionIf {
+		[ 'rc', 'm' ].any {
+			candidate.version ==~ /(?i).*[.\-]$it[.\-\d]*/
 		}
 	}
 }
@@ -58,11 +61,6 @@ dependencyUpdates {
 
 idea {
 	module {
-		excludeDirs += files('.idea', 'gradle')
+		excludeDirs += files('gradle')
 	}
-}
-
-
-wrapper {
-	gradleVersion = '9.7.1'
 }
