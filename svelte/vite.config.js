@@ -2,7 +2,10 @@ import { svelte } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('vite').UserConfigExport} */
 export default {
-	plugins: [ svelte() ],
+	plugins: [ svelte({
+		compilerOptions: { runes: true },
+		configFile: false
+	}) ],
 
 	server: { open: true },
 
