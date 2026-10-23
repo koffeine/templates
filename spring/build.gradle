@@ -1,6 +1,6 @@
 plugins {
 	id 'java'
-	id 'org.springframework.boot' version '4.1.1'
+	id 'org.springframework.boot' version '4.1.2'
 	id 'idea'
 }
 
@@ -63,4 +63,9 @@ idea {
 	module {
 		excludeDirs += files('gradle')
 	}
+}
+
+
+wrapper {
+	gradleVersion = '9.8.2'
 }
