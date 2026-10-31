@@ -8,18 +8,18 @@
 	},
 	"dependencies": {
 		"@koffeine/kss": "^4.4.2",
-		"@koffeine/svelte-router": "^7.0.1"
+		"@koffeine/svelte-router": "^8.0.0"
 	},
 	"devDependencies": {
-		"@koffeine/eslint-config": "^49.10.0",
-		"@koffeine/eslint-config-svelte": "^7.2.0",
+		"@koffeine/eslint-config": "^50.1.0",
+		"@koffeine/eslint-config-svelte": "^7.4.0",
 		"@sveltejs/vite-plugin-svelte": "^6.2.4",
-		"eslint": "^10.14.0",
-		"globals": "^17.13.0",
-		"svelte": "^5.57.3",
-		"svelte-check": "^4.7.7",
+		"eslint": "^10.16.0",
+		"globals": "^17.14.0",
+		"svelte": "^5.59.2",
+		"svelte-check": "^4.7.8",
 		"typescript-svelte-plugin": "^0.3.52",
-		"vite": "^7.3.7"
+		"vite": "^7.3.8"
 	},
 	"allowScripts": {
 		"esbuild": true,
