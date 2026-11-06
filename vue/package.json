@@ -8,7 +8,7 @@
 	},
 	"dependencies": {
 		"@koffeine/kss": "^4.4.2",
-		"vue": "^3.5.44"
+		"vue": "^3.5.45"
 	},
 	"devDependencies": {
 		"@koffeine/eslint-config": "^49.10.0",
