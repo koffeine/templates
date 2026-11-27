@@ -5,6 +5,7 @@
 	},
 	"devDependencies": {
 		"@koffeine/eslint-config": "^50.1.0",
+		"@typescript-eslint/parser": "^8.74.0",
 		"eslint": "^10.16.0",
 		"globals": "^17.14.0",
 		"typescript": "^6.0.3"

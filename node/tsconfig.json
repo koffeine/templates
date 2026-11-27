@@ -1,6 +1,7 @@
 {
 	"compilerOptions": {
 		// Modules
+		"allowImportingTsExtensions": true,
 		"module": "nodenext",
 		"moduleResolution": "nodenext",
 		"types": [],
@@ -11,6 +12,10 @@
 		// JavaScript Support
 		"allowJs": true,
 		"checkJs": true,
+
+		// Interop Constraints
+		"erasableSyntaxOnly": true,
+		"verbatimModuleSyntax": true,
 
 		// Language and Environment
 		"target": "esnext",

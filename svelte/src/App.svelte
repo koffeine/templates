@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 import { init, route } from '@koffeine/svelte-router';
 
 init([

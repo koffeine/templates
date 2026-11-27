@@ -1,6 +1,7 @@
 {
 	"compilerOptions": {
 		// Modules
+		"allowImportingTsExtensions": true,
 		"module": "nodenext",
 		"moduleResolution": "nodenext",
 		"types": [],
@@ -14,6 +15,10 @@
 
 		// Editor Support
 		"plugins": [ { "name": "typescript-svelte-plugin" } ],
+
+		// Interop Constraints
+		"erasableSyntaxOnly": true,
+		"verbatimModuleSyntax": true,
 
 		// Language and Environment
 		"target": "esnext",
