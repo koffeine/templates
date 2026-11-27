@@ -17,10 +17,6 @@ Further instructions can be found in the given template.
 		- <a href="spring">spring</a>: Template for a Spring (Web + Validation) project
 	- <a href=".public">.public</a>: Additional files for a public project
 
-### Variants
-
-- <a href="https://github.com/koffeine/templates/tree/svelte-typed/svelte">svelte-typed</a>: Template for a type-checked Svelte project
-
 ### Not maintained
 
 - <a href="https://github.com/koffeine/templates/tree/node-ts/node">node-ts</a>: Template for a Node.js + TypeScript project

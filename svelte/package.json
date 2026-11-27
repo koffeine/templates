@@ -2,7 +2,7 @@
   "name": "koffeine",
   "type": "module",
   "scripts": {
-    "test": "eslint src",
+    "test": "eslint src && svelte-check --tsconfig jsconfig.json",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -17,6 +17,7 @@
     "eslint": "8.10.0",
     "eslint-plugin-svelte3": "3.4.1",
     "svelte": "3.46.4",
+    "svelte-check": "2.4.5",
     "vite": "2.8.4"
   },
   "private": true
