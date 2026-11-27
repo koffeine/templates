@@ -1,7 +1,7 @@
 {
 	"type": "module",
 	"scripts": {
-		"test": "eslint && tsc -p jsconfig.json"
+		"test": "eslint && tsc"
 	},
 	"devDependencies": {
 		"@koffeine/eslint-config": "^48.5.0",
