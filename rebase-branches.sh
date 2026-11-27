@@ -1,8 +1,8 @@
 #!/bin/bash
 
-for i in $(git branch | grep -v main | awk '{print $1}'); do
+for i in $(git branch --format='%(refname:short)' | grep -vx main); do
 	git checkout "$i"
-	git rebase main
+	git rebase --fork-point main
 	git push -f
 done
 
