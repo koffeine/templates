@@ -19,6 +19,10 @@
 		"vite": "^7.3.5",
 		"vue-tsc": "^3.3.5"
 	},
+	"allowScripts": {
+		"esbuild": true,
+		"fsevents": true
+	},
 	"devEngines": {
 		"runtime": {
 			"name": "node",
